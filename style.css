@@ -1,0 +1,261 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* general styles */
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #F0F0F0;
+    color: #1A1A2E;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+/* header and nav */
+header {
+    background-color: #1A1A2E;
+    padding: 15px 0;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
+}
+
+nav a {
+    color: #F0F0F0;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 30px;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #F5A623;
+}
+
+/* footer */
+footer {
+    background-color: #1A1A2E;
+    text-align: center;
+    padding: 20px 0;
+    color: #F0F0F0;
+    font-size: 14px;
+    border-top: 2px solid #E94560;
+}
+
+/* hero */
+.hero {
+    background-color: #1A1A2E;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.hero img {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    color: #F0F0F0;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.hero p {
+    color: #F5A623;
+    font-size: 20px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+/* shared section styles */
+section {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* about */
+.about p {
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* highlights */
+.highlights {
+    background-color: #1A1A2E;
+    max-width: 100%;
+    padding: 50px 0;
+}
+
+.highlights h2 {
+    color: #F0F0F0;
+}
+
+.cards {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: #F0F0F0;
+    border-radius: 8px;
+    padding: 25px;
+    text-align: center;
+    border-top: 4px solid #E94560;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+.attribution {
+    margin-top: 15px;
+    font-weight: 700;
+    font-style: normal;
+    color: #F5A623;
+}
+
+/* meet the hosts */
+.host-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.host-card {
+    text-align: center;
+    width: 200px;
+}
+
+.host-card img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    border: 3px solid #E94560;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.host-card img:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.host-card h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.host-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* latest espisode */
+.latest-episode {
+    text-align: center;
+}
+
+.episode-info {
+    margin-bottom: 20px;
+}
+
+.episode-info h3 {
+    font-size: 20px;
+}
+
+.episode-info p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 5px;
+}
+
+.latest-episode iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 232px;
+    border: none;
+    border-radius: 12px;
+}
+
+/* where to listen */
+.listen {
+    background-color: #1A1A2E;
+    max-width: 100%;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.listen h2 {
+    color: #F0F0F0;
+}
+
+.links {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links a {
+    background-color: #E94560;
+    color: #F0F0F0;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.links a:hover {
+    background-color: #F5A623;
+    color: #1A1A2E;
+}
