@@ -28,3 +28,6 @@ Body: Lato
 - Individual profile sections for Jonathan, Brayden, Eva, and Linnea.
 - Each profile: headshot photo, bio, favorite episode picks, fun fact, and links to personal social media (Instagram, Twitter/X, TikTok).
 - 'Host Commentary' feature — short exclusive audio or text commentary clips from each host.
+### Episodes Page
+Full episode library with search, filter by topic or season, and sort by date.
+Each episode card includes: title, thumbnail, air date, guest name (if applicable), and short description.
